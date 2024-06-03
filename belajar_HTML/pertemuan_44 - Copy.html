@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form pendaftaran</title>
+</head>
+<body>
+    <h2><img src="gambar/Pendataan-Alumni-SMAN-5-230320105748-removebg-preview.png" alt="smanel logo" width="60" height="60">   SMAN 5 KOTA JAMBI</h2>
+    
+<hr><hr>
+<br>
+
+    <form action="">
+
+        <h2>FORMULIR PENJURUSAN </h2>
+        <fieldset>
+            <legend>Biodata Siswa</legend>
+            <br>
+
+
+            <label for="nama_siswa">
+                <p>Nama Siswa : <input type="text" name="nama_siswa" id="nama_siswa" placeholder="nama sesuai ijazah" required></p>
+            </label>
+
+            <label for="nisn">
+                <p><abbr title="Nomor Induk Siswa Nasional">NISN</abbr> : <input type="number" name="nisn" id="nisn" placeholder="123xxxxxxx (10 digit)" required></p>
+            </label>
+
+            <label for="nis">
+                <p><abbr title="Nomor Induk Siswa">NIS</abbr> : <input type="number" name="nisn" id="nis" placeholder="123xx (5 digit)" required></p>
+            </label>
+
+            <label for="nisn">
+                <p>Kelas  : 
+                     <select name="" id="">
+                        <option value="">X</option>
+                     </select>
+                     <select name="" id="" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="" selected></option>
+                     </select>
+                </p>
+            </label>
+
+            <label for="telp">
+                <p>No telp/WA : <input type="number" name="telp" id="telp" placeholder="08123456789" required></p>
+            </label>
+
+            <p> 
+            <label for="Email">
+                Email : <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+            </label>
+            </p>
+
+            <p> Jenis Kelamin :
+            <label for="laki-laki">
+                <input type="radio" name="jenis_kelamin" id="laki-laki">Laki-laki
+            </label>
+            <label for="perempuan">
+                <input type="radio" name="jenis_kelamin" id="perempuan">Perempuan
+            </label>
+            </p>
+
+            <p>
+                Tempat,Tgl Lahir : <input type="text" name="" id="" > <input type="date" name="" id="" required>
+            </p>
+
+
+<br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Biodata Orang Tua Siswa</legend>
+
+            <dl>
+                <dt>Nama Orang Tua</dt>
+
+                    <dd><label for="ayahibu">
+                        <p>Ayah/Ibu : <input type="text" name="ayahibu" id="ayahibu" required></p></label>
+                    </dd>
+                    <dd>
+                        <label for="telporangtua">
+                            <p>No telp/WA : <input type="number" name="telporangtua" id="telporangtua" placeholder="08123456789" required></p>
+                        </label>
+                        <label for="">
+                            <p>Jenis Pekerjaan :
+                                <select name="" id="">
+                                    <option value="">PNS/ASN</option>
+                                    <option value="">WIRASWASTA</option>
+                                    <option value="">WIRAUSAHA</option>
+                                    <option value="">PEDAGANG</option>
+                                    <option value="">GURU/DOSEN</option>
+                                    <option value="">Lainnya</option>
+                                    <option value="" selected></option>
+
+                                </select>
+
+
+                            </p>
+                        </label>
+                    </dd>
+                    <dd>
+                         <dl>
+                            <dt>Penghasilan perbulan :</dt>
+                                <dd><input type="radio" name="Penghasilan" id="">kurang dari Rp.1.000.000</dd>
+                                <dd><input type="radio" name="Penghasilan" id="">RP.1.000.000 - Rp.2.000.000</dd>
+                                <dd><input type="radio" name="Penghasilan" id="">RP.2.000.000 - Rp.3.000.000</dd>
+                                <dd><input type="radio" name="Penghasilan" id="">RP.3.000.000 - Rp.4.000.000</dd>
+                                <dd><input type="radio" name="Penghasilan" id="">Lebih dari Rp.4.000.000</dd>                              
+                         </dl>         
+                    </dd>        
+            </dl>
+            
+        </fieldset>
+
+        <fieldset>
+           <legend>Penjurusan Kelas</legend>
+
+           <h3>PILIHAN I</h3>
+                <select name="pilihannya" id="pilihannya">
+                    <option value="">KESEHATAN</option>
+                    <option value="">TEKNIK</option>
+                    <option value="">SAINTEK 1</option>
+                    <option value="">SAINTEK 2</option>
+                    <option value="">SOSHUM 1</option>
+                    <option value="">SOSHUM 2</option>
+                    <option value="" selected>pilih jurusan</option>
+
+                </select>
+
+                <h3>PILIHAN II</h3>
+                <select name="pilihannya" id="pilihannya">
+                    <option value="">KESEHATAN</option>
+                    <option value="">TEKNIK</option>
+                    <option value="">SAINTEK 1</option>
+                    <option value="">SAINTEK 2</option>
+                    <option value="">SOSHUM 1</option>
+                    <option value="">SOSHUM 2</option>
+                    <option value="" selected>pilih jurusan</option>
+
+                </select>
+
+                <h3>PILIHAN III</h3>
+                <select name="pilihannya" id="pilihannya">
+                    <option value="">KESEHATAN</option>
+                    <option value="">TEKNIK</option>
+                    <option value="">SAINTEK 1</option>
+                    <option value="">SAINTEK 2</option>
+                    <option value="">SOSHUM 1</option>
+                    <option value="">SOSHUM 2</option>
+                    <option value="" selected>pilih jurusan</option>
+
+                </select>
+
+                <p style="color: brown;font-size: small;">*note : pilihan Jurusan tidak boleh sama</p>
+                
+                <h4> PAS FOTO (4X6)</h4>
+                
+                <p>upload foto : <input type="file" name="" id="" accept="image/*"></p>
+
+
+        </fieldset>
+<br>
+        <details>
+            <summary>Persetujuan dan Persyaratan</summary>
+            <input type="checkbox" name="" id="" required>dengan ini kamis menyatakan kalau formulir yang kami isi adalah benar benar adanya dan siap menanggung konsekuensinya jika data tidak konkrit
+        </details>
+<br><br>
+
+        <button type="submit">Kirim Data</button>
+    </form>
+    
+</body>
+</html>
